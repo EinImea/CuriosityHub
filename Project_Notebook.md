@@ -20,3 +20,8 @@
 - Type 2 (Hosted): Runs as an application on an existing OS. Easier to build.
 - Type 1 (Bare Metal): Runs directly on hardware. More complex.
 - Decision: Stick to Type 2 using Apple's Virtualization.framework.
+
+### Phase 1.5: Guest OS Verification
+- Successfully downloaded Alpine Linux aarch64 binaries.
+- Location: ./GuestOS/
+- Ready for Phase 2: Configuration Scripting.
