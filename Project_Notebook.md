@@ -15,3 +15,8 @@
 - **Type 2 (Hosted):** Runs as an application on an existing OS (macOS). This is what Parallels, UTM, and my project are. It's easier to build because macOS handles the hardware drivers for me.
 - **Type 1 (Bare Metal):** Runs directly on the hardware (like Xen or VMware ESXi). It is faster and more secure but incredibly complex to build because I would have to write drivers for the M5 chip from scratch.
 - **Decision:** Stick to Type 2 using Apple's `Virtualization.framework`.
+
+### Research Note: Hypervisor Types (2026-05-05)
+- Type 2 (Hosted): Runs as an application on an existing OS. Easier to build.
+- Type 1 (Bare Metal): Runs directly on hardware. More complex.
+- Decision: Stick to Type 2 using Apple's Virtualization.framework.
