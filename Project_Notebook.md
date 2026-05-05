@@ -25,3 +25,4 @@
 - Successfully downloaded Alpine Linux aarch64 binaries.
 - Location: ./GuestOS/
 - Ready for Phase 2: Configuration Scripting.
+## Learning Note: Mastering the Triangle of Tools.
